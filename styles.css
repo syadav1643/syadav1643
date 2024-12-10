@@ -1,0 +1,49 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #2f2f2f;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: url('images/lotr_header.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: gold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    padding: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
+
+.intro img {
+    width: 100%;
+    height: auto;
+}
